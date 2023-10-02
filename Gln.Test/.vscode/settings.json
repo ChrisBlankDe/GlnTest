@@ -1,0 +1,57 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${PerTenantExtensionCop}",
+        "${UICop}",
+        "${CodeCop}"
+    ],
+    "CRS.ObjectNamePrefix": "PTE",
+    "CRS.RemovePrefixFromFilename": true,
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "alOutline.codeCleanupActions": [
+        "FixKeywordsCase",
+        "FixIdentifiersCase",
+        "AddMissingParentheses",
+        "ConvertObjectIdsToNames",
+        "RemoveWithStatements",
+        "RemoveStrSubstNoFromError",
+        "RemoveBeginEnd",
+        "RemoveUnusedVariables",
+        "AddObjectCaptions",
+        "AddTableFieldCaptions",
+        "AddPageFieldCaptions",
+        "LockRemovedFieldCaptions",
+        "SortTableFields",
+        "SortPermissions",
+        "SortPermissionSetList",
+        "SortVariables",
+        "SortProperties",
+        "RemoveRedundantAppAreas",
+        "AddApplicationAreas",
+        "RemoveEmptyTriggers",
+        "RemoveEmptyLines",
+        "RemoveEmptySections",
+        "TrimTrailingWhitespace",
+        "FormatDocument"
+    ],
+    "alOutline.appAreaMode": "inheritFromMainObject",
+    "alOutline.defaultAddPageFieldCaptionsSettings": {
+        "setActionsCaptions": true,
+        "setActionGroupsCaptions": true,
+        "setFieldsCaptions": false,
+        "setGroupsCaptions": true
+    },
+    "alOutline.defaultRemoveEmptyTriggersSettings": {
+        "removeSubscribers": true,
+        "removeTriggers": true,
+        "ignoreComments": false
+    },
+    "alOutline.defaultRemoveUnusedVariablesSettings": {
+        "removeLocalVariables": true,
+        "removeGlobalVariables": true,
+        "removeLocalMethodParameters": false
+    },
+    "alOutline.defaultAppArea": "PTE",
+    "alOutline.codeTransformationIgnoreFiles": []
+}
