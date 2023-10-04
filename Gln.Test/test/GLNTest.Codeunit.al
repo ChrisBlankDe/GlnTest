@@ -34,7 +34,7 @@ codeunit 50100 PTEGLNTest
     end;
 
     [Test]
-    procedure GlnPositiveTest()
+    procedure InsertGlnPositiveTest()
     var
         CompanyInformation: Record "Company Information";
     begin
@@ -47,7 +47,7 @@ codeunit 50100 PTEGLNTest
     end;
 
     [Test]
-    procedure GlnNegativeTest()
+    procedure InsertGlnNegativeTest()
     var
         CompanyInformation: Record "Company Information";
     begin
